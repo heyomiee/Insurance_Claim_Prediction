@@ -1,6 +1,8 @@
 # 🛡️ Insurance Claim Prediction
 
-![Project Preview](home.png)
+![Project Preview](homepage.png.png)
+
+A Machine Learning web application built using **Python** and **Streamlit** to predict insurance charges.
 
 ## 📌 Overview
 
