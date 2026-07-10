@@ -1,0 +1,1 @@
+py -3.14 -m streamlit run "C:\Users\Om Patel\Desktop\Insuranceclaim_prediction\app.py"

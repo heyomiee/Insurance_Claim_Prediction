@@ -1,0 +1,180 @@
+/* ================================
+   BACKGROUND
+================================ */
+
+.main{
+    background:transparent;
+}
+
+/* ================================
+   TITLE
+================================ */
+
+.title{
+    color:white;
+    font-size:42px;
+    font-weight:bold;
+    margin-bottom:15px;
+}
+
+/* ================================
+   GLASS CARD
+================================ */
+
+.glass{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:35px;
+    color:white;
+    border:1px solid rgba(255,255,255,0.25);
+    box-shadow:0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* ================================
+   INPUT CARD
+================================ */
+
+.input-box{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    padding:30px;
+    border-radius:18px;
+    border:1px solid rgba(255,255,255,0.2);
+    margin-top:20px;
+}
+
+/* ================================
+   WHITE TITLE
+================================ */
+
+.white-title{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+
+/* ================================
+   LABELS
+================================ */
+
+label{
+    color:white !important;
+    font-weight:bold !important;
+}
+
+/* ================================
+   INPUTS
+================================ */
+
+.stNumberInput input,
+.stSelectbox div[data-baseweb="select"]{
+    border-radius:10px !important;
+}
+
+/* ================================
+   BUTTON
+================================ */
+
+.stButton>button{
+
+    width:100%;
+
+    background:#0B5ED7;
+
+    color:white;
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    border-radius:12px;
+
+    height:60px;
+
+    border:none;
+
+    transition:0.3s;
+}
+
+.stButton>button:hover{
+
+    background:#084298;
+
+    color:white;
+
+}
+
+/* ================================
+   RESULT CARD
+================================ */
+
+.result-card{
+
+    background:#16a34a;
+
+    padding:25px;
+
+    border-radius:18px;
+
+    text-align:center;
+
+    color:white;
+
+    margin-top:20px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.3);
+
+}
+
+.result-title{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+
+}
+
+.result-price{
+
+    font-size:46px;
+
+    font-weight:bold;
+
+}
+
+/* ================================
+   SIDEBAR
+================================ */
+
+section[data-testid="stSidebar"]{
+
+    background:white;
+
+}
+
+section[data-testid="stSidebar"] h2{
+
+    color:#0B5ED7;
+
+}
+
+section[data-testid="stSidebar"] label{
+
+    color:black !important;
+
+}
+
+/* ================================
+   REMOVE FOOTER
+================================ */
+
+footer{
+
+    visibility:hidden;
+
+}
